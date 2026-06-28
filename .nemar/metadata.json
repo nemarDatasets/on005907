@@ -1,28 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on005907",
-  "source": "openneuro",
-  "source_id": "ds005907",
+  "pipeline_stage": "enriched",
   "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "Ethan Campbell": {},
     "James F Cavanagh": {}
   },
-  "license": "CC0",
-  "dataset_type": "derivative",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005907.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004595.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005907",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005907",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 53 community participants performing a 3-armed bandit reinforcement learning task with alcohol and beverage cues. The study investigates electrophysiological markers of cue-specific exploration and decision-making processes in hazardous drinkers compared to controls. Data were collected between 2019-2021 at the University of New Mexico's Clinical Research Center Laboratory.",
+  "methods_description": "EEG data were collected during a 3-armed bandit reinforcement learning task incorporating alcohol versus beverage cues. The dataset represents derivative data processed using the NEMAR-pipeline, a validated EEG preprocessing pipeline (version bcb79cb).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "alcohol cues"
+    },
+    {
+      "term": "bandit task"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "hazardous drinking"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Alcohol Drinking",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Cues",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH"
+    }
+  ],
+  "source_hash": "fd15b568133f22887f406e5ea7079d18dfdd9c8ec13a66a7063ec23f5b16992a"
 }
