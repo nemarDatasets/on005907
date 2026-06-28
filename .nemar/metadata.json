@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005907",
+  "source": "openneuro",
+  "source_id": "ds005907",
+  "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
+  "authors": {
+    "Ethan Campbell": {},
+    "James F Cavanagh": {}
+  },
+  "license": "CC0",
+  "dataset_type": "derivative",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005907.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
