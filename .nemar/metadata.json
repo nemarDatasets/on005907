@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
-  "description": "A derivative EEG dataset from a reinforcement learning task (3-armed bandit) examining decision-making and cue reactivity in hazardous drinkers versus controls. Data were collected from 53 community participants between 2019-2021 and processed using the NEMAR-pipeline. This dataset investigates electrophysiological markers of aberrant exploration patterns in response to alcohol versus beverage cues.",
-  "methods_description": "EEG data were collected during a 3-armed bandit reinforcement learning task with alcohol and beverage cues. Data were processed using the NEMAR-pipeline (version bcb79cb), a validated EEG preprocessing pipeline. HED version 8.1.0 was used for event annotation.",
+  "description": "This dataset contains EEG recordings from 53 community participants performing a reinforcement learning task (3-armed bandit) featuring alcohol versus beverage cues, designed to examine aberrant cue-specific exploration behavior in hazardous drinkers compared to controls. Data were collected between 2019 and 2021 at the Clinical and Research Center for Learning (CRCL) at the University of New Mexico. The dataset is a preprocessed derivative generated using the NEMAR-pipeline, intended to support electrophysiological analyses of reward learning and cue reactivity in the context of alcohol use.",
+  "methods_description": "EEG data were collected during a 3-armed bandit reinforcement learning task involving alcohol and beverage cues. Data were preprocessed using the NEMAR-pipeline, a validated EEG preprocessing pipeline.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,16 +18,18 @@
       "term": "reinforcement learning"
     },
     {
-      "term": "decision-making"
+      "term": "Alcohol Drinking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000428"
     },
     {
-      "term": "alcohol cues"
+      "term": "cue reactivity"
     },
     {
-      "term": "bandit task"
+      "term": "3-armed bandit task"
     },
     {
-      "term": "electrophysiology"
+      "term": "hazardous drinking"
     }
   ],
   "related_identifiers": [
