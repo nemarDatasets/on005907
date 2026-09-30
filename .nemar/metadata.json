@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
-  "description": "This dataset contains EEG recordings from 53 community participants performing a reinforcement learning task (3-armed bandit) featuring alcohol versus beverage cues, designed to examine aberrant cue-specific exploration behavior in hazardous drinkers compared to controls. Data were collected between 2019 and 2021 at the Clinical and Research Center for Learning (CRCL) at the University of New Mexico. The dataset is a preprocessed derivative generated using the NEMAR-pipeline, intended to support electrophysiological analyses of reward learning and cue reactivity in the context of alcohol use.",
-  "methods_description": "EEG data were collected during a 3-armed bandit reinforcement learning task involving alcohol and beverage cues. Data were preprocessed using the NEMAR-pipeline, a validated EEG preprocessing pipeline.",
+  "description": "EEG recordings from a three-armed bandit reinforcement learning task in which alcohol-related and non-alcohol beverage cues were presented to 53 community participants, including hazardous drinkers and controls. The dataset supports investigation of electrophysiological markers of cue-specific exploration in hazardous drinking. This derivative version was processed with the NEMAR pipeline.",
+  "methods_description": "Data were collected between 2019 and 2021 at the CRCL at UNM while participants performed a 3-armed bandit reinforcement learning task with alcohol versus beverage cues. Triggers and outputs are documented in the BEH_EXPLAIN.m file in the code folder.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,18 +18,16 @@
       "term": "reinforcement learning"
     },
     {
-      "term": "Alcohol Drinking",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000428"
-    },
-    {
-      "term": "cue reactivity"
-    },
-    {
-      "term": "3-armed bandit task"
+      "term": "alcohol cues"
     },
     {
       "term": "hazardous drinking"
+    },
+    {
+      "term": "exploration"
+    },
+    {
+      "term": "three-armed bandit"
     }
   ],
   "related_identifiers": [
@@ -60,7 +58,7 @@
     "eeg"
   ],
   "sizes": [
-    "6.1 GB (54 files)"
+    "5.64 GB (54 files)"
   ],
   "formats": [
     ".json",
